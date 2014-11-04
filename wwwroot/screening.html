@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Seedlink Tech Test</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/screening.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/wlc-module-popup-windows.css" />
+	<script src="scripts/jquery.min.js"></script>
+</head>
+<body>
+
+	<div data-role="page-header">
+		<div class="block">Find</div>
+		<div class="block" id="current-position" data-role="button">
+			<span id="current-position-seats" class="count-badge">3</span>
+			<span id="current-position-title">Full-Time Time Tellers</span>
+		</div>
+		<div class="block">for</div>
+		<div class="block" id="current-company" data-role="button">BillGates.com</div>
+
+		<div class="block aside-right">
+			<span class="block" id="all-tasks" data-role="button"></span>
+			<span class="block" id="user-account" data-role="avatar"
+				style="background-image: url(images/avatars/hr/avatar1.png);"></span>
+		</div>
+	</div>
+
+	<div data-role="chief-content">
+		<div data-role="columns-container">
+			<div data-role="column" id="column-filters">
+				<div data-role="header">
+					<span>Resumes Submitted</span>
+					<span class="count-badge">23197</span>
+				</div>
+				<div data-role="body">
+					<div class="filters-list">
+						<div data-role="list-item" class="filter">
+							<span class="filter-name">头发</span>
+							<span class="filter-value">很少</span>
+							<span class="filtering-result count-badge">11146</span>
+							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/hr/avatar1.png);"></span>
+							<i data-role="button" class="x-button"></i>
+						</div>
+						<div data-role="list-item" class="filter">
+							<span class="filter-name">身高</span>
+							<span class="filter-value">120 - 199</span>
+							<span class="filtering-result count-badge">1979</span>
+							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/hr/avatar2.png);"></span>
+							<i data-role="button" class="x-button"></i>
+						</div>
+						<div data-role="list-item" class="filter">
+							<span class="filter-name">口味</span>
+							<span class="filter-value">爱吃甜食</span>
+							<span class="filtering-result count-badge">1951</span>
+							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/hr/avatar2.png);"></span>
+							<i data-role="button" class="x-button"></i>
+						</div>
+						<div data-role="list-item" class="filter">
+							<span class="filter-name">手机</span>
+							<span class="filter-value">iPhone</span>
+							<span class="filtering-result count-badge">1945</span>
+							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/hr/avatar3.png);"></span>
+							<i data-role="button" class="x-button"></i>
+						</div>
+						<div data-role="list-item" class="filter">
+							<span class="filter-name">性别</span>
+							<span class="filter-value">男</span>
+							<span class="filtering-result count-badge">1001</span>
+							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/hr/avatar1.png);"></span>
+							<i data-role="button" class="x-button"></i>
+						</div>
+						<div data-role="list-item" class="filter">
+							<span class="filter-name">居住地</span>
+							<span class="filter-value">上海 徐汇</span>
+							<span class="filtering-result count-badge">214</span>
+							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/hr/avatar3.png);"></span>
+							<i data-role="button" class="x-button"></i>
+						</div>
+						<div data-role="list-item" class="filter">
+							<span class="filter-name">耳环</span>
+							<span class="filter-value">至少1个</span>
+							<span class="filtering-result count-badge">75</span>
+							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/hr/avatar1.png);"></span>
+							<i data-role="button" class="x-button"></i>
+						</div>
+						<div data-role="list-item" class="filter">
+							<span class="filter-name">普通话</span>
+							<span class="filter-value">标准</span>
+							<span class="filtering-result count-badge">21</span>
+							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/hr/avatar2.png);"></span>
+							<i data-role="button" class="x-button"></i>
+						</div>
+					</div>
+				</div>
+				<div data-role="footer">
+					<button id="button-add-a-filter">Add a Filter</button>
+				</div>
+			</div>
+
+			<div data-role="column" id="column-filtered-items">
+				<div data-role="header">
+					<span>入围人员</span>
+					<span style="margin-left: 120px;">
+						<label for="people-sort-by">Sort by</label>
+						<select name="people-sort-by" id="people-sort-by">
+							<option>Seedlink Rank</option>
+							<option>Age</option>
+							<option>Expected Salary</option>
+						</select>
+					</span>
+					<span class="count-badge">21</span>
+				</div>
+				<div data-role="body">
+					<div class="people-list">
+						<div data-role="list-item" class="people">
+							<span class="people-name">Nicole Kidman</span>
+							<span class="people-age">20</span>
+							<span class="people-rank">99</span>
+							<span data-role="avatar" class="avatar" style="background-image: url(images/avatars/jobseekers/nicolekidman.jpg);"></span>
+							<i data-role="button" class="button-add"></i>
+							<i data-role="button" class="button-remove"></i>
+						</div>
+
+						<div data-role="list-item" class="people">
+							<span class="people-name">Steve Ballmer</span>
+							<span class="people-age">60</span>
+							<span class="people-rank">82</span>
+							<span data-role="avatar" class="avatar" style="background-image: url(images/avatars/jobseekers/steveballmer.jpg);"></span>
+							<i data-role="button" class="button-add"></i>
+							<i data-role="button" class="button-remove"></i>
+						</div>
+					</div>
+				</div>
+				<div data-role="footer">
+					<button id="button-filtered-list-add-all">将所有上表中所有用户添加至候选名单</button>
+				</div>
+			</div>
+
+			<div data-role="column" id="column-candidate-items">
+				<div data-role="header">
+					<span>Candidates（候选名单）</span>
+					<span class="count-badge">7</span>
+				</div>
+				<div data-role="body">
+					<div class="people-list">
+						<div data-role="list-item" class="people">
+							<span class="people-name">Nicole Kidman</span>
+							<span class="people-rank">99</span>
+							<span data-role="avatar" class="avatar" style="background-image: url(images/avatars/jobseekers/nicolekidman.jpg);"></span>
+						</div>
+					</div>
+				</div>
+				<div data-role="footer">
+					<button id="button-go-to-organization-column">决定面试优先级</button>
+				</div>
+			</div>
+
+			<div data-role="column" id="column-organized-items">
+				<div data-role="header">
+					<span>Organized Lists</span>
+					<span class="count-badge">7</span>
+				</div>
+				<div data-role="body">
+				</div>		
+				<div data-role="footer">
+					<button id="button-filtered-list-add-all">导出至Excel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<div data-role="popup-layer" id="current-position-brief" style="width: 800px; height: 800px;">
+	<i class="button-x"></i>
+	<header><h2>Task Brief</h2></header>
+</div>
+<div data-role="popup-layer" id="excluded-items" style="display: none;"></div>
+<div data-role="popup-layer" id="screening-mode-ui" style="display: none;"></div>
+<script src="scripts/wlc-js.js"></script>
+<script src="scripts/wlc-website.js"></script>
+<script src="scripts/screening.js"></script>
+</body>
+</html>
