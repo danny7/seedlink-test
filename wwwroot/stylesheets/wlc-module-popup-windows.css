@@ -65,6 +65,8 @@
 }
 
 *[data-role="popup-layer"] header h2 {
+	font-size: 30px;
+	margin: 0;
 	text-align: center;
 }
 

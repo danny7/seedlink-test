@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"peo",
+				"people"
+			],
+			[
+				"pe",
+				"people"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"cu",
+				"currentFilterIndex"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"show",
+				"showNFiltersAtBeginning"
+			],
+			[
+				"man",
+				"manuallyRemovedFilter"
+			],
+			[
+				"p",
+				"people-name"
+			],
+			[
 				"ma",
 				"margin"
 			],
@@ -106,10 +142,6 @@
 			[
 				"inlin",
 				"inline-block"
-			],
-			[
-				"cl",
-				"clear"
 			],
 			[
 				"tit",
@@ -482,38 +514,6 @@
 			[
 				"di",
 				"display"
-			],
-			[
-				"margin-",
-				"margin-bottom"
-			],
-			[
-				"elem",
-				"tileElements"
-			],
-			[
-				"_c",
-				"_currents"
-			],
-			[
-				"cu",
-				"currents"
-			],
-			[
-				"m",
-				"margin-top"
-			],
-			[
-				"im",
-				"important"
-			],
-			[
-				"bak",
-				"background-color"
-			],
-			[
-				"bo",
-				"border-radius"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "wwwroot/screening.html",
 			"settings":
 			{
-				"buffer_size": 7446,
+				"buffer_size": 10192,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "wwwroot/stylesheets/wlc-module-popup-windows.css",
 			"settings":
 			{
-				"buffer_size": 3701,
+				"buffer_size": 3731,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,16 +539,8 @@
 			"file": "wwwroot/stylesheets/screening.css",
 			"settings":
 			{
-				"buffer_size": 8947,
+				"buffer_size": 8978,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wwwroot/scripts/screening.js",
-			"settings":
-			{
-				"buffer_size": 460,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -599,6 +591,7 @@
 	],
 	"file_history":
 	[
+		"/D/github/2014-11-001_seedlink-test/seedlink-test/wwwroot/scripts/screening.js",
 		"/D/github/2014-08-003_zhonglu-website/wwwroot/stylesheets/lly-module-popup-windows.css",
 		"/D/github/wlcJS/wwwroot/stylesheets/_lly-module-popup-windows.css",
 		"/D/github/wlcJS/wwwroot/stylesheets/common.css",
@@ -725,8 +718,7 @@
 		"/D/p/LLY_local/2014-07-005_lianlian-app-ux-enhancements/2014-08-001_lianlian-app-ux/wwwroot/scripts/app-welcome-def.js",
 		"/D/p/LLY_local/2014-07-005_lianlian-app-ux-enhancements/2014-08-001_lianlian-app-ux/wwwroot/stylesheets/app-welcome-stage.css",
 		"/D/p/LLY_local/2014-07-005_lianlian-app-ux-enhancements/2014-08-001_lianlian-app-ux/wwwroot/scripts/app-welcome-play.js",
-		"/D/p/LLY_local/2014-07-005_lianlian-app-ux-enhancements/2014-08-001_lianlian-app-ux/wwwroot/scripts/app-welcome-init.js",
-		"/D/Users/lechuan/Desktop/wlc/share/wulechuan-web-front-end-demos-2014-08/wulechuan-demo10-交互系统雏形/scripts/wlc-js.js"
+		"/D/p/LLY_local/2014-07-005_lianlian-app-ux-enhancements/2014-08-001_lianlian-app-ux/wwwroot/scripts/app-welcome-init.js"
 	],
 	"find":
 	{
@@ -757,6 +749,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"filterVisibilities",
+			"filterOrPeople",
+			"peopleRank",
+			"innerText",
+			"filterOrPeople",
+			"filter",
 			"1",
 			".popup-window",
 			"popup-window",
@@ -878,13 +876,7 @@
 			"onfooterload",
 			"recordDependingElement",
 			"chief-",
-			"windowOnResize",
-			"chief-content",
-			"newsArticleSection",
-			"locateBasedOnDependingElement",
-			"newsArticleSection",
-			"resize",
-			"newsArticleSection"
+			"windowOnResize"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -922,7 +914,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -931,15 +923,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7446,
+						"buffer_size": 10192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4626,
-								4626
+								8198,
+								8198
 							]
 						],
 						"settings":
@@ -947,10 +939,10 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2346.0,
+						"translation.y": 3586.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -959,15 +951,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3701,
+						"buffer_size": 3731,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2877,
-								2877
+								1005,
+								1005
 							]
 						],
 						"settings":
@@ -976,10 +968,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 897.0,
+						"translation.y": 1173.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -988,15 +980,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8947,
+						"buffer_size": 8978,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								936,
-								936
+								7889,
+								7889
 							]
 						],
 						"settings":
@@ -1005,38 +997,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 276.0,
+						"translation.y": 9808.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "wwwroot/scripts/screening.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 460,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								290,
-								290
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

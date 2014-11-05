@@ -34,10 +34,24 @@
 				</div>
 				<div data-role="body">
 					<div class="filters-list">
+						<div data-role="list-item" class="filter" id="manually-removed-filter">
+							<span class="filter-name">手工排除</span>
+							<span class="filter-value">多名</span>
+							<span class="filtering-result count-badge">23133</span>
+							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/sorry.jpg);"></span>
+							<i data-role="button" class="x-button"></i>
+						</div>
+						<div data-role="list-item" class="filter">
+							<span class="filter-name">评分</span>
+							<span class="filter-value">高于20</span>
+							<span class="filtering-result count-badge">11146</span>
+							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/seedlink.png);"></span>
+							<i data-role="button" class="x-button"></i>
+						</div>
 						<div data-role="list-item" class="filter">
 							<span class="filter-name">头发</span>
 							<span class="filter-value">很少</span>
-							<span class="filtering-result count-badge">11146</span>
+							<span class="filtering-result count-badge">4321</span>
 							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/hr/avatar1.png);"></span>
 							<i data-role="button" class="x-button"></i>
 						</div>
@@ -63,8 +77,8 @@
 							<i data-role="button" class="x-button"></i>
 						</div>
 						<div data-role="list-item" class="filter">
-							<span class="filter-name">性别</span>
-							<span class="filter-value">男</span>
+							<span class="filter-name">待遇要求</span>
+							<span class="filter-value">0 - 1234</span>
 							<span class="filtering-result count-badge">1001</span>
 							<span data-role="avatar" class="creator" style="background-image: url(images/avatars/hr/avatar1.png);"></span>
 							<i data-role="button" class="x-button"></i>
@@ -129,6 +143,42 @@
 							<i data-role="button" class="button-add"></i>
 							<i data-role="button" class="button-remove"></i>
 						</div>
+
+						<div data-role="list-item" class="people">
+							<span class="people-name">Wall E</span>
+							<span class="people-age">6</span>
+							<span class="people-rank">99</span>
+							<span data-role="avatar" class="avatar" style="background-image: url(images/avatars/jobseekers/wall-e.jpg);"></span>
+							<i data-role="button" class="button-add"></i>
+							<i data-role="button" class="button-remove"></i>
+						</div>
+
+						<div data-role="list-item" class="people">
+							<span class="people-name">Yoda Master</span>
+							<span class="people-age">6666</span>
+							<span class="people-rank">7</span>
+							<span data-role="avatar" class="avatar" style="background-image: url(images/avatars/jobseekers/yoda.jpg);"></span>
+							<i data-role="button" class="button-add"></i>
+							<i data-role="button" class="button-remove"></i>
+						</div>
+
+						<div data-role="list-item" class="people">
+							<span class="people-name">Tony Stark</span>
+							<span class="people-age">42</span>
+							<span class="people-rank">0</span>
+							<span data-role="avatar" class="avatar" style="background-image: url(images/avatars/jobseekers/tony.jpg);"></span>
+							<i data-role="button" class="button-add"></i>
+							<i data-role="button" class="button-remove"></i>
+						</div>
+
+						<div data-role="list-item" class="people">
+							<span class="people-name">Spiderman</span>
+							<span class="people-age">23</span>
+							<span class="people-rank">88</span>
+							<span data-role="avatar" class="avatar" style="background-image: url(images/avatars/jobseekers/spiderman.jpg);"></span>
+							<i data-role="button" class="button-add"></i>
+							<i data-role="button" class="button-remove"></i>
+						</div>
 					</div>
 				</div>
 				<div data-role="footer">
@@ -143,11 +193,11 @@
 				</div>
 				<div data-role="body">
 					<div class="people-list">
-						<div data-role="list-item" class="people">
+						<!-- <div data-role="list-item" class="people">
 							<span class="people-name">Nicole Kidman</span>
 							<span class="people-rank">99</span>
 							<span data-role="avatar" class="avatar" style="background-image: url(images/avatars/jobseekers/nicolekidman.jpg);"></span>
-						</div>
+						</div> -->
 					</div>
 				</div>
 				<div data-role="footer">
@@ -170,9 +220,17 @@
 	</div>
 
 
-<div data-role="popup-layer" id="current-position-brief" style="width: 800px; height: 800px;">
+<div data-role="popup-layer" id="current-position-brief" style="width: 500px; height: 400px;">
 	<i class="button-x"></i>
 	<header><h2>Task Brief</h2></header>
+	<article>
+		<p>Find a guy who can do these:</p>
+		<ul>
+			<li>knows how to get time from a watch</li>
+			<li>watch the time every 10 seconds</li>
+			<li>has the ability to speak loud and clear</li>
+		</ul>
+	</article>
 </div>
 <div data-role="popup-layer" id="excluded-items" style="display: none;"></div>
 <div data-role="popup-layer" id="screening-mode-ui" style="display: none;"></div>
